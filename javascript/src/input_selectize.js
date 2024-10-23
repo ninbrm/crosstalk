@@ -14,7 +14,7 @@ input.register({
      * group: "ct-groupname"
      */
 
-    let first = [{value: "", label: "(All)"}];
+    let first = [{value: "", label: "(None)"}];
     let items = util.dataframeToD3(data.items);
     let opts = {
       options: first.concat(items),
